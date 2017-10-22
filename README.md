@@ -12,7 +12,7 @@ If not add this in your profile file:
 Give the rigth permision to the scripts:
 
 ```
-sudo chmod 744 ~/scripts/*
+chmod +x 744 ~/scripts/*
 ```
 
 ## Current scripts:
