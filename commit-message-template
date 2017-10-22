@@ -1,0 +1,7 @@
+[P2] [BUG_ID] :: summary
+
+  ticket: http://b/BUG_ID
+  staged: STAGING_URL
+
+  * Thing that happened
+  * Thing that happened
