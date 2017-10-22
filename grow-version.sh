@@ -48,5 +48,5 @@ if [ ! -d "$DIRECTORY" ]; then
   echo "alias grow@$VERSION=$DIRECTORY/grow" >> $SHELL_FILE
 
 else
-  echo "Grow $VERSION is already installed"
+  echo "Grow $VERSION is already installed! run grow@$VERSION --version"
 fi
