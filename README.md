@@ -15,7 +15,7 @@ Give the rigth permision to the scripts:
 sudo chmod 744 ~/scripts/*
 ```
 
-Current scripts:
+## Current scripts:
 ### grow-version.sh
 To install multiple versions of [grow](https://github.com/grow/grow/releases/).
 
@@ -23,6 +23,8 @@ Installing 0.2.0 version:
 ```
 grow-version.sh 0.2.0
 ```
+
+Then refresh your shell.
 
 Usage:
 ```
