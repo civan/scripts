@@ -1,5 +1,10 @@
-set -ex
+set -e
 #!/usr/bin/env/ sh
+
+if [ -z "$1" ]; then
+  echo "usage: $0 <version>"
+  exit 1
+fi
 
 TEMPDIR="/tmp"
 TEMP_ZIP="$TEMPDIR/temp_grow.zip"
@@ -46,6 +51,8 @@ if [ ! -d "$DIRECTORY" ]; then
 
   #creates a symbolic link to ~/bin/
   ln -s $DIRECTORY/grow $HOME/bin/grow@$VERSION
+
+  echo "Installed new version: $VERSION."
 
 else
   echo "Grow $VERSION is already installed! run grow@$VERSION --version"
