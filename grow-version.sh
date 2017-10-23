@@ -44,8 +44,8 @@ if [ ! -d "$DIRECTORY" ]; then
     SHELL_FILE="$HOME/.zshrc";
   fi
 
-  #adds the alias to the shell
-  echo "alias grow@$VERSION=$DIRECTORY/grow" >> $SHELL_FILE
+  #creates a symbolic link to ~/bin/
+  ln -s $DIRECTORY/grow $HOME/bin/grow@$VERSION
 
 else
   echo "Grow $VERSION is already installed! run grow@$VERSION --version"
