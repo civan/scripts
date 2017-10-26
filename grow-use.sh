@@ -12,7 +12,7 @@ DIRECTORY="$GROW_VERSIONS_DIR/$VERSION";
 
 # checks if  the version is NOT installed
 if [ ! -f "$DIRECTORY/grow" ]; then
- sh $HOME/scripts/grow-version.sh $VERSION
+ sh $HOME/scripts/grow-install.sh $VERSION
 fi
 
 # removes the actual grow
