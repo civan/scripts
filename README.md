@@ -34,12 +34,12 @@ now you can use 0.2.1 as your main version:
 grow --version
 ```
 
-### grow-version.sh
+### grow-install.sh
 Installs multiple versions of [grow](https://github.com/grow/grow/releases/).
 
 Installing 0.2.0 version:
 ```
-grow-version.sh 0.2.0
+grow-install.sh 0.2.0
 ```
 
 Then refresh your shell.
@@ -56,8 +56,16 @@ You can create symlinks for every scripts you want to use:
 ```
 ln -s ~/scripts/grow-use.sh ~/bin/grow-use
 ```
+and 
+```
+ln -s ~/scripts/grow-install.sh ~/bin/grow-install
+```
 
 then you can use:
 ```
 grow-use 0.2.0
+```
+and
+```
+grow-install 0.2.0
 ```
