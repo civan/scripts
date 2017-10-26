@@ -2,12 +2,13 @@
 Bash ustilities.
 
 ## Installation
-
+```
 git clone https://github.com/civan/scripts.git ~/scripts
+```
 
 ## PATH
 make sure you have the ~/scripts folder in your $PATH.
-If not, add this in your profile file:
+If not, add this in your shell profile file. eg, (`~/.bashrc`, `~/-.zshrc`):
 ```
  export PATH=$PATH:$HOME/bin:$HOME/scripts
 ```
