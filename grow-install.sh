@@ -25,7 +25,7 @@ SHELL_FILE="$HOME/.zshrc";
 if [ ! -d "$DIRECTORY" ]; then
   # creates the version folder
   if [ ! -d "$GROW_VERSIONS_DIR" ]; then
-    mkdir $GROW_VERSIONS_DIR
+    mkdir -p $GROW_VERSIONS_DIR
   fi
 
   # gets the file version
